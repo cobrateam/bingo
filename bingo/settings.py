@@ -121,6 +121,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.admindocs',
     "south",
+    "post",
 )
 
 # A sample logging configuration. The only tangible logging
@@ -145,3 +146,10 @@ LOGGING = {
         },
     }
 }
+
+
+# test section
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+TESTS_APPS = ('django_nose',)
+NOSE_ARGS = ['--quiet', "-sd", '--nologcapture', '--with-coverage', '--cover-erase']
+NOSE_ARGS.extend(['--cover-package=post', ])
