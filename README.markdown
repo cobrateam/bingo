@@ -22,4 +22,5 @@ To do this, follow the instructions:
 5. epio upload
 
 Just do it, and your bingo blog is online.
-> Dont need configure epio.ini file. We did it :D
+
+> obs: Dont need configure epio.ini file. We did it :D
