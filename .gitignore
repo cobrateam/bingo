@@ -3,3 +3,4 @@
 *.db
 static/
 .epio-app
+.coverage
