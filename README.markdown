@@ -1,19 +1,18 @@
 bingo - a buzz word driven blog system
 ======================================
 
-# Features
+### Features
+
 1. markdown editor
 2. posts in 2 languages (minimal)
 3. inline editor
 4. use [mootools](http://mootools.net/) for that
 
-# Deploy
+### Deploy
 
-epio
-----
+**epio**
 
 If you have a [ep.io](http://ep.io/) account, you can deploy easily bingo project.
-
 To do this, follow the instructions:
 
 1. cd bingo
