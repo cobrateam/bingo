@@ -1,0 +1,2 @@
+bingo - a buzz word driven blog system
+======================================
