@@ -10,3 +10,7 @@ class TestPost(unittest.TestCase):
     def test_post_unicode_should_be_the_title(self):
         post = Post.objects.create(title="test", content="some content to test")
         self.assertEqual("test", unicode(post))
+
+    def test_get_absolute_url(self):
+        post = Post.objects.create(title="test", content="some content to test")
+        self.assertEqual("/posts/%s/" % post.id, post.get_absolute_url())
